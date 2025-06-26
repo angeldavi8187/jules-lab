@@ -39,7 +39,7 @@ def agregar_plato():
             except ValueError:
                 # Manejar el caso donde el precio no es un número válido
                 # (Podríamos agregar un mensaje flash para el usuario aquí)
-                pass
+                pass 
         return redirect(url_for('index'))
 
 if __name__ == '__main__':
